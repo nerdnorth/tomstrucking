@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: #FFF;
+	font-family: 'Libre Baskerville', serif;
+	font-weight:300;
+	font-size: 20px;
+	line-height: 1.4em;
+	color: #111;
+	transition-duration: .5s;
+}
+
+.main {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 'Dosis', sans-serif;
+	font-size: 2.5em;
+	font-weight: 300;
+}
+
+h2 {
+	font-family: 'Dosis', sans-serif;
+	font-size: 2em;
+	font-weight: 300;
+}
+
+h3 {
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+a {
+	color: #509964;
+} 
+
+a:hover {
+	color: #30893f;
+}
+
+
+a.button {
+	background-color: #F60;
+	color: #fff;
+	font-weight:normal;
+	font-size:14px;
+	line-height:1.2em;
+	text-decoration:none;
+	border-radius:5px;
+	padding: 10px 30px 10px;
+	box-shadow: 0px 1px 0px #111;
+}
+
+a.button:hover {
+	background-color: #fff;
+	color: #111;
+}
+
+hr {
+	border: 0;
+	width: 70%;
+	height: 2px; 
+	background-color: #fff;
+	margin-top: 50px;
+}
+
+
+blockquote {
+	font-style: italic;
+	font-size: 22px;
+}
+
+footer cite {
+	font-style:normal;
+	font-size: 20px;
+}
+
+.nav {
+	font-size: 16px;
+	text-align: center;
+	line-height:1.2em;
+	padding: 20px 0;
+}
+
+.nav a {
+	color: #111;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	color: #30893f;
+	text-decoration: underline;
+}
+
+.img-responsive {
+    display: block;
+    width: 100% \9;
+    max-width: 50%;
+    height: auto;
+	margin: 0 auto;
+}
+
+.img-review {
+    display: block;
+    width: 100% \9;
+    max-width: 60%;
+    height: auto;
+	margin: 0 auto;
+}
+
+fieldset {
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+input[type="submit"] {
+	background-color: #fff;
+	color: #111;
+	font-weight:normal;
+	font-size:14px;
+	line-height:1.2em;
+	text-decoration:none;
+	border-radius:5px;
+	padding: 10px 30px 10px;
+	border:none;
+	outline:none;
+	box-shadow: 0px 1px 0px #111;
+}
+
+input[type="text"], input[type="email"] {
+	font-size: 16px;
+	display: block;
+	width: auto;
+	padding: 10px 30px 10px;
+	border: 2px solid #fff;
+	border-radius:5px;
+	outline: none;
+	margin: 1em 0;
+	box-shadow: 0px 1px 0px #111;
+}
+
+.cta {
+	border:2px dashed #30893f;
+	padding:15px;
+}
+
+.cta h2 {
+	margin-top:0;
+}
+
+.who img {
+	float: right;
+	width: 200px;
+	border-radius: 100%;
+    margin-left: 10px;
+}
+
+.mailchimp {
+	background-color:#489663;
+	font-family: 'Dosis', sans-serif;
+	color:#fff;
+	padding:15px;
+}
+
+.mailchimp h3 {
+	padding-top:0;
+	margin-top:0;
+}
+
+@media screen and (max-width: 400px) {
+.mob { 
+	float: none;
+	margin-right:0;
+	margin-bottom:20px;
+	width:auto;
+  }
+  
+.mob img {
+	float: none;
+    max-width: 80%;
+	width:100%;
+    height: auto;
+	margin: 0 auto;
+	padding-bottom:20px;
+}
+
+h1 {
+	font-size:42px;
+}
+.img-review {
+    display: block;
+    width: 100% \9;
+    max-width: 100%;
+    height: auto;
+	margin: 0 auto;
+}
+}
