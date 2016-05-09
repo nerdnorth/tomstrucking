@@ -1,4 +1,3 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -12,25 +11,71 @@
 <meta property="og:image" content="" />
 <meta property="og:locale" content="en_US" />
 <title>Tom's Trucking</title>
+<style>
+/**
+ *    Real-World CSS
+ *    by @visualidiot. Licensed under WTPFL.
+ */
+/* @group Blink */
 
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
-<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Dosis:400,500,600,700,800,300' rel='stylesheet' type='text/css'>
+.blink {
+    -webkit-animation: blink .75s linear infinite;
+    -moz-animation: blink .75s linear infinite;
+    -ms-animation: blink .75s linear infinite;
+    -o-animation: blink .75s linear infinite;
+    animation: blink .75s linear infinite;
+}
+
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-ms-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-o-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+/* @end */
+
+</style>
 </head>
 
-<body>
-<div class="main">
-	<article><img src="img/logo.png" alt="Left Coast - The Collective - Levi Allen" border="0" class="img-responsive">
-    <h1 align="center">Tom's Trucking Ltd.</h1>
-    <p>Moving stuff since <blink>1982</blink>.</p>
-    <div class="cta">
-      <h2>Text us</h2>
-    <p>(424) 247-5762<strong></strong></p>
+<body background="./img/background.jpg">
+    <h1 align="center"><font face="ARIAL BLACK,HELVETICA"><font color="#6B2315">T</font><font color="#8B241B" size="+3">o</font><font color="#9D1C23" size="+3">m</font><font color="#B51634" size="+3">'</font><font color="#CD1149" size="+3">s</font><font color="#EE0661" size="+3"> T</font><font color="#F60589" size="+3">r</font><font color="#FC19B4" size="+3">u</font><font color="#FD41DA" size="+3">c</font><font color="#FD66FB" size="+3">k</font><font color="#DC57FD" size="+3">i</font><font color="#B745FD" size="+3">n</font><font color="#933CFB" size="+3">g </font><font color="#6D28FC" size="+3">L</font><font color="#401DFC" size="+3">t</font><font color="#494CFD" size="+3">d</font><font color="#1464FE" size="+3">.</font></font></h1>
+    <p align="center">Moving stuff since <span class="blink">1982</span>.</p>
+    <p align="center"><strong>Text us:</strong> (424) 247-5762</p>
+    <p align="center"><strong>Address:<br>
+      </strong>PO Box 1028<br>
+      Vernon BC V1T 6N2<br>
+    Canada    </p>
     </div>
-  </article>
-  <div class="nav">
   <hr>
-  Webmaster: <a href="https://twitter.com/mijustin">Justin Jackson</a></div>
-</div>
+  <p align="center">Webmaster: <a href="https://twitter.com/mijustin">Justin Jackson</a></p>
 </body>
 </html>
